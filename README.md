@@ -148,7 +148,7 @@
 
     <!-- Laptop Image -->
     <div class="flex justify-center">
-      <img src="Screenshot 2025-10-02 211742.png" alt="HP Smartchoice Victus Gaming Laptop" class="rounded-xl shadow-lg w-80" />
+      <img src="https://github.com/techybysuyog/TechbySuyog.com/blob/main/Screenshot%202025-10-02%20211742.png?raw=true" alt="HP Smartchoice Victus Gaming Laptop" class="rounded-xl shadow-lg w-80" />
     </div>
 
     <!-- Product Info -->
