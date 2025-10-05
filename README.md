@@ -165,7 +165,7 @@
       </ul>
       <p class="text-xl font-semibold text-gray-600 line-through">₹ 1,00,594</p>
       <p class="text-2xl font-bold text-green-600 mb-4">₹ 81,990 (After 18% OFF)</p>
-      <a href="https://amzn.to/4pMWQjb" target="_blank" class="buy-btn block w-full text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl text-lg font-semibold transition">
+      <a href="https://amzn.to/48KGqBS" target="_blank" class="buy-btn block w-full text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl text-lg font-semibold transition">
         Buy Now on Amazon
       </a>
     </div>
