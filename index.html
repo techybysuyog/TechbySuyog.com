@@ -178,7 +178,7 @@
 
   <!-- Product Image -->
   <div class="flex justify-center md:col-span-1">
-    <img src="c:\Users\Suyog\Downloads\projectora a.jpg"
+    <img src="projectora a.jpg"
          alt="WZATCO Yuva Go Smart Projector"
          class="rounded-xl shadow-lg w-80" />
   </div>
@@ -226,3 +226,5 @@
   </footer>
 </body>
 </html>
+
+
