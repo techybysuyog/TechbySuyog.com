@@ -6,7 +6,6 @@
   <title>HP Victus Gaming Laptop Promo</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* === General Theme === */
     body {
       background: radial-gradient(circle at top right, #0f172a, #000);
       color: #e5e7eb;
@@ -15,14 +14,10 @@
       overflow-y: auto;
       scroll-behavior: smooth;
     }
-
-    /* === Neon Glow Headline === */
     h1, h2 {
       color: #2aff12;
       text-shadow: 0 0 15px #ff6600, 0 0 30px #54ff00;
     }
-
-    /* === 3D Card Hover === */
     .glass-card {
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid rgba(255, 255, 255, 0.1);
@@ -33,8 +28,6 @@
       transform: scale(1.05);
       box-shadow: 0 0 20px #54ff00;
     }
-
-    /* === Neon Button === */
     .buy-btn {
       position: relative;
       background: linear-gradient(90deg, #a3ff12, #00ff88);
@@ -48,8 +41,6 @@
       transform: scale(1.05);
       box-shadow: 0 0 25px #00ff88;
     }
-
-    /* === Floating Username === */
     .username {
       position: fixed;
       top: 50%;
@@ -66,8 +57,6 @@
       0%, 100% { transform: rotate(90deg) translateY(-50%) translateX(0); }
       50% { transform: rotate(90deg) translateY(-50%) translateX(10px); }
     }
-
-    /* === Discount Badge === */
     .discount {
       background: #00ff88;
       color: #000;
@@ -84,8 +73,6 @@
       0%, 100% { transform: scale(1); opacity: 1; }
       50% { transform: scale(1.1); opacity: 0.8; }
     }
-
-    /* === Colorful Instagram Floating Button === */
     .insta-float {
       position: fixed;
       bottom: 20px;
@@ -129,20 +116,19 @@
     <p class="text-gray-400 text-lg">HP Victus – performance and design, made for gamers and creators</p>
   </header>
 
-  <!-- Product Card -->
-  <div class="relative max-w-4xl glass-card rounded-2xl p-6 grid md:grid-cols-2 gap-6 items-center">
-    <!-- Discount Badge -->
+  <!-- Combined Product + Why Choose Section -->
+  <div class="relative max-w-6xl glass-card rounded-2xl p-6 grid md:grid-cols-3 gap-6 items-center">
     <div class="discount">18% OFF</div>
 
     <!-- Laptop Image -->
-    <div class="flex justify-center">
+    <div class="flex justify-center md:col-span-1">
       <img src="https://github.com/techybysuyog/TechbySuyog.com/blob/main/Screenshot%202025-10-02%20211742.png?raw=true"
            alt="HP Smartchoice Victus Gaming Laptop"
            class="rounded-xl shadow-lg w-80" />
     </div>
 
     <!-- Product Info -->
-    <div>
+    <div class="md:col-span-1">
       <h2 class="text-2xl font-semibold mb-3 text-white">HP Smartchoice Victus Gaming Laptop</h2>
       <ul class="text-gray-300 space-y-1 mb-4 text-sm">
         <li>💻 13th Gen Intel Core i7-13620H</li>
@@ -155,27 +141,27 @@
       </ul>
       <p class="text-xl font-semibold text-gray-500 line-through">₹ 1,00,594</p>
       <p class="text-2xl font-bold text-[#00ff88] mb-4">₹ 81,990 (After 18% OFF)</p>
-      <a href="https://amzn.to/48KGqBS" target="_blank" class="buy-btn block w-full text-center py-3 text-lg">
+      <a href="https://amzn.to/3J8Icm2" target="_blank" class="buy-btn block w-full text-center py-3 text-lg">
         Buy Now on Amazon
       </a>
     </div>
-  </div>
 
-  <!-- Info Section -->
-  <section class="max-w-4xl mt-12 glass-card p-6 rounded-2xl">
-    <h2 class="text-2xl font-bold mb-4">Why Choose HP Victus?</h2>
-    <p class="text-gray-300 mb-4">
-      The <strong>HP Smartchoice Victus</strong> is designed for gamers, creators, and professionals who demand high performance.
-      With the latest 13th Gen Intel processor and RTX 4050 GPU, you can enjoy seamless multitasking, smooth gameplay, and immersive visuals.
-    </p>
-    <ul class="list-disc pl-6 text-gray-400 space-y-2">
-      <li>✅ Excellent cooling system for longer gaming sessions</li>
-      <li>✅ Upgrade-friendly design with RAM & storage expansion</li>
-      <li>✅ 144Hz FHD display for fluid motion</li>
-      <li>✅ Premium build with a sleek silver finish</li>
-      <li>✅ Backed by HP reliability and support</li>
-    </ul>
-  </section>
+    <!-- Why Choose Section (Now Inside Same Box) -->
+    <div class="md:col-span-1">
+      <h2 class="text-2xl font-bold mb-4">Why Choose HP Victus?</h2>
+      <p class="text-gray-300 mb-4">
+        The <strong>HP Smartchoice Victus</strong> is designed for gamers, creators, and professionals who demand high performance.
+        With the latest 13th Gen Intel processor and RTX 4050 GPU, you can enjoy seamless multitasking, smooth gameplay, and immersive visuals.
+      </p>
+      <ul class="list-disc pl-6 text-gray-400 space-y-2 text-sm">
+        <li>✅ Excellent cooling system for longer gaming sessions</li>
+        <li>✅ Upgrade-friendly design with RAM & storage expansion</li>
+        <li>✅ 144Hz FHD display for fluid motion</li>
+        <li>✅ Premium build with a sleek silver finish</li>
+        <li>✅ Backed by HP reliability and support</li>
+      </ul>
+    </div>
+  </div>
 
   <!-- Floating Instagram Button -->
   <a href="https://www.instagram.com/techby_suyog?igsh=MmtzMWlxdmY5MzRh" target="_blank" class="insta-float">
@@ -185,9 +171,58 @@
     @techby_suyog
   </a>
 
-  <!-- Footer -->
+ 
+<!-- Second Product: WZATCO Yuva Go Smart Projector -->
+<div class="relative max-w-6xl glass-card rounded-2xl p-6 grid md:grid-cols-3 gap-6 items-center mt-10">
+  <div class="discount">77% OFF</div>
+
+  <!-- Product Image -->
+  <div class="flex justify-center md:col-span-1">
+    <img src="c:\Users\Suyog\Downloads\projectora a.jpg"
+         alt="WZATCO Yuva Go Smart Projector"
+         class="rounded-xl shadow-lg w-80" />
+  </div>
+
+  <!-- Product Details -->
+  <div class="md:col-span-1">
+    <h2 class="text-2xl font-semibold mb-3 text-white">WZATCO Yuva Go Smart Projector</h2>
+    <ul class="text-gray-300 space-y-1 mb-4 text-sm">
+      <li>🎥 Android 13.0 Smart Projector with built-in Netflix, Prime Video & YouTube</li>
+      <li>🖥️ 1080P & 4K Supported (Native 720p)</li>
+      <li>🔄 Rotatable Compact Design</li>
+      <li>📐 Auto & 4D Keystone Correction</li>
+      <li>📶 WiFi 6 + Bluetooth Connectivity</li>
+      <li>🔊 HDMI ARC, Screen Mirroring & USB Playback</li>
+      <li>⚪ Sleek White Finish</li>
+    </ul>
+
+    <p class="text-xl font-semibold text-gray-500 line-through">₹ 21,990</p>
+    <p class="text-2xl font-bold text-[#00ff88] mb-4">₹ 4,999 (After 77% OFF)</p>
+
+    <a href="https://amzn.to/4oonlKi" target="_blank"
+       class="buy-btn block w-full text-center py-3 text-lg">
+       Buy Now on Amazon
+    </a>
+  </div>
+
+  <!-- Why Choose Section -->
+  <div class="md:col-span-1">
+    <h2 class="text-2xl font-bold mb-4">Why Choose WZATCO Yuva Go?</h2>
+    <ul class="list-disc pl-6 text-gray-400 space-y-2 text-sm">
+      <li>✅ Android 13.0 with full OTT app support</li>
+      <li>✅ Crisp 1080p visuals with 4K decoding</li>
+      <li>✅ Auto + 4D Keystone for easy setup</li>
+      <li>✅ Compact & rotatable modern design</li>
+      <li>✅ WiFi 6 ensures lag-free streaming</li>
+      <li>✅ Best Seller in Home Cinema Projectors</li>
+      <li>✅ Trusted by 3,500+ happy customers</li>
+    </ul>
+  </div>
+</div>
+ <!-- Footer -->
   <footer class="mt-10 text-gray-500 text-sm">
-    © 2025 GameOn Tech Store. All Rights Reserved.
+<li>_           Suyog Sunil Deore             _</li>
+   © 2025 GameOn Tech Store. All Rights Reserved.
   </footer>
 </body>
 </html>
