@@ -178,7 +178,7 @@
 
   <!-- Product Image -->
   <div class="flex justify-center md:col-span-1">
-    <img src="projectora a.jpg"
+    <img src="c:\Users\Suyog\Downloads\projectora a.jpg"
          alt="WZATCO Yuva Go Smart Projector"
          class="rounded-xl shadow-lg w-80" />
   </div>
@@ -219,6 +219,43 @@
     </ul>
   </div>
 </div>
+
+ <!-- Product 3: WINZELLA 3-in-1 Fast Charging Cable -->
+  <div class="relative max-w-6xl glass-card rounded-2xl p-6 grid md:grid-cols-3 gap-6 items-center mt-10">
+    <div class="discount">65% OFF</div>
+    <div class="flex justify-center md:col-span-1">
+      <img src="C:\Users\Suyog\Downloads\3-1 usb image.jpg"
+           alt="WINZELLA 3-in-1 Fast Charging Cable"
+           class="rounded-xl shadow-lg w-80" />
+    </div>
+    <div class="md:col-span-1">
+      <h2 class="text-2xl font-semibold mb-3 text-white">WINZELLA 3-in-1 Fast Charging Cable</h2>
+      <ul class="text-gray-300 space-y-1 mb-4 text-sm">
+        <li>⚡ 120W Super Fast Charging Support</li>
+        <li>🔌 3-in-1 Cable: Type-C, Micro USB & Lightning</li>
+        <li>🔄 Retractable Design – Adjustable Length</li>
+        <li>💪 Durable & Tangle-Free Nylon Build</li>
+        <li>📱 Compatible with All Android & iOS Devices</li>
+        <li>🎒 Compact & Travel Friendly</li>
+      </ul>
+      <p class="text-xl font-semibold text-gray-500 line-through">₹ 999</p>
+      <p class="text-2xl font-bold text-[#00ff88] mb-4">₹ 177 (After 65% OFF)</p>
+      <a href="https://amzn.to/49gSfQs" target="_blank"
+         class="buy-btn block w-full text-center py-3 text-lg">
+         Buy Now on Amazon
+      </a>
+    </div>
+    <div class="md:col-span-1">
+      <h2 class="text-2xl font-bold mb-4">Why Choose WINZELLA Cable?</h2>
+      <ul class="list-disc pl-6 text-gray-400 space-y-2 text-sm">
+        <li>✅ Charges 3 devices simultaneously</li>
+        <li>✅ High-speed 120W power delivery</li>
+        <li>✅ Strong retractable shell prevents wire damage</li>
+        <li>✅ Compact design fits any bag or pocket</li>
+        <li>✅ Ideal for daily, office & travel use</li>
+      </ul>
+    </div>
+  </div>
  <!-- Footer -->
   <footer class="mt-10 text-gray-500 text-sm">
 <li>_           Suyog Sunil Deore             _</li>
@@ -226,5 +263,3 @@
   </footer>
 </body>
 </html>
-
-
