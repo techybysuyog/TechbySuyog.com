@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -179,7 +178,7 @@
 
   <!-- Product Image -->
   <div class="flex justify-center md:col-span-1">
-    <img src="c:\Users\Suyog\Downloads\projectora a.jpg"
+    <img src="https://github.com/techybysuyog/TechbySuyog.com/blob/main/projectora%20a.jpg?raw=true"
          alt="WZATCO Yuva Go Smart Projector"
          class="rounded-xl shadow-lg w-80" />
   </div>
